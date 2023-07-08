@@ -1,4 +1,23 @@
 name: BoatHunt
 version: '${project.version}'
+authors:
+  - SM45654
 main: at.sm45654.boathunt.BoatHunt
 api-version: '1.20'
+
+commands:
+  boathunt:
+    aliases:
+      - boat
+      - b
+
+permissions:
+  boathunt.set:
+    default: op
+  boathunt.map:
+    default: op
+  boathunt.admin:
+    default: op
+    children:
+      - boathunt.set
+      - boathunt.map

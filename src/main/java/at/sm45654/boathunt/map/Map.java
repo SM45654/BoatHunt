@@ -1,4 +1,4 @@
-package at.sm45654.boathunt.manager;
+package at.sm45654.boathunt.map;
 
 import at.sm45654.boathunt.BoatHunt;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -36,5 +36,3 @@ public class Map {
 
 }
 
-
-}
