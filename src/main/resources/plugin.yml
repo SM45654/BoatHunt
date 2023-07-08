@@ -1,0 +1,4 @@
+name: BoatHunt
+version: '${project.version}'
+main: at.sm45654.boathunt.BoatHunt
+api-version: '1.20'
