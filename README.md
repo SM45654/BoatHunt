@@ -1,0 +1,2 @@
+# BoatHunt
+Minecraft Minigame Plugin
