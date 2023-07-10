@@ -6,7 +6,7 @@
 
     <groupId>at.sm45654</groupId>
     <artifactId>BoatHunt</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>BoatHunt</name>

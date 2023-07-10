@@ -1,5 +1,6 @@
 package at.sm45654.boathunt;
 
+import at.sm45654.boathunt.cfg.Config;
 import at.sm45654.boathunt.command.BoatHuntCMD;
 import at.sm45654.boathunt.map.Map;
 import at.sm45654.boathunt.util.ChatUtil;
@@ -11,11 +12,15 @@ public final class BoatHunt extends JavaPlugin {
     public static String PREFIX = ChatUtil.BLUE + "[" + ChatUtil.LIGHT_BLUE + "BoatHunt" + ChatUtil.BLUE + "] ";
     public static BoatHunt plugin;
 
+    public static GameState state;
+
     @Override
     public void onEnable() {
         plugin = this;
         plugin.getCommand("boathunt").setExecutor(new BoatHuntCMD());
         Map.loadList();
+        Config.register();
+        Config.saveCfg();
     }
 
     @Override
